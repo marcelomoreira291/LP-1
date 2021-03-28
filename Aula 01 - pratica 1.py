@@ -1,3 +1,4 @@
+'''
 def nome_inserido(nome):
     return nome
 
@@ -23,3 +24,15 @@ print ('Seu nome é: ', nome_inserido(nome))
 print ('Sua idade é: ', idade_inserida(idade))
 print ('Seu estado civil é: ', estado_civil_inserido(estado_civil))
 print ('Seu gênero é: ', genero_inserido(genero))
+'''
+
+from  time import sleep 
+import os
+x = 9
+while x > 0:
+    for contagem in range(1):
+        sleep(2)
+        print(x)
+        x = x-2    
+os.system('clear')  
+print('Lançar!')
